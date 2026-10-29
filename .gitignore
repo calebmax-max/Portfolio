@@ -27,8 +27,8 @@ desktop.ini
 
 # Large project images and videos
 # Git will ignore media files in these folders.
-public/images/
-public/videos/
+# public/images/
+# public/videos/
 
 # Keep folders in Git using placeholder files
 !public/images/.gitkeep
