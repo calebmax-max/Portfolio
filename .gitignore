@@ -1,0 +1,35 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Large project images and videos
+# Git will ignore media files in these folders.
+public/images/
+public/videos/
+
+# Keep folders in Git using placeholder files
+!public/images/.gitkeep
+!public/videos/.gitkeep
